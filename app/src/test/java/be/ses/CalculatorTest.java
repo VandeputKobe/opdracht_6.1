@@ -13,7 +13,7 @@ public class CalculatorTest {
         float result = calculator.divide(1,2);
 
         //assert
-        assertThat(result).isEqualTo(0.5f);
+        assertThat(result).isEqualTo(0.4f);
     }
 
     @Test
